@@ -1,0 +1,173 @@
+/* Custom styles for the e-commerce website */
+
+/* General body styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* Remove margin top from main content */
+main {
+    margin-top: 0;
+}
+
+/* Smooth scrolling */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Header styles */
+.navbar {
+    background-color: #fff !important;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    padding: 15px 0;
+}
+
+.navbar-brand img {
+    height: 40px;
+    width: auto;
+}
+
+.nav-buttons {
+    display: flex;
+    align-items: center;
+}
+
+.nav-buttons .nav-link {
+    color: #333 !important;
+    font-weight: 500;
+    margin: 0 15px;
+    transition: color 0.3s;
+}
+
+.nav-buttons .nav-link:hover {
+    color: coral !important;
+}
+
+.nav-buttons .fa {
+    font-size: 18px;
+    color: #333;
+    transition: color 0.3s;
+}
+
+.nav-buttons .fa:hover {
+    color: coral;
+}
+
+/* Footer styles */
+footer {
+    background-color: #343a40 !important;
+    color: white;
+}
+
+footer h5 {
+    color: white !important;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+footer .text-muted {
+    color: #adb5bd !important;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+footer a.text-muted:hover {
+    color: coral !important;
+    text-decoration: none !important;
+}
+
+footer .fab {
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+footer .fab:hover {
+    color: coral !important;
+}
+
+footer hr {
+    border-color: #495057 !important;
+}
+
+footer .img-fluid {
+    border-radius: 4px;
+    transition: transform 0.3s;
+}
+
+footer .img-fluid:hover {
+    transform: scale(1.05);
+}
+
+/* Home section styles */
+#home {
+    background-image: url('../imgs/back.jpg');
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 5%;
+}
+
+#home .container {
+    max-width: 600px;
+}
+
+#home h5 {
+    color: #666;
+    font-size: 18px;
+    margin-bottom: 10px;
+    font-weight: normal;
+}
+
+#home h1 {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+#home span {
+    color: coral;
+}
+
+#home p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 30px;
+}
+
+#home button {
+    background-color: coral;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#home button:hover {
+    background-color: #ff6347;
+}
+
+/* Button styles */
+button {
+    background-color: coral;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ff7f50;
+}
