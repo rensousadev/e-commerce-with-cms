@@ -1,0 +1,77 @@
+nohup: ignoring input
+[Tue Oct 14 22:12:21 2025] PHP 8.3.6 Development Server (http://localhost:3000) started
+[Tue Oct 14 22:12:29 2025] 127.0.0.1:48114 Accepted
+[Tue Oct 14 22:12:29 2025] 127.0.0.1:48114 [200]: GET /
+[Tue Oct 14 22:12:29 2025] 127.0.0.1:48114 Closing
+[Tue Oct 14 22:12:35 2025] 127.0.0.1:59526 Accepted
+[Tue Oct 14 22:12:35 2025] 127.0.0.1:59526 [200]: GET /?id=5f6465f9-3142-49cf-bcbf-8fe55c8f0088&vscodeBrowserReqId=1760490755573
+[Tue Oct 14 22:12:35 2025] 127.0.0.1:59526 Closing
+[Tue Oct 14 22:12:35 2025] 127.0.0.1:59540 Accepted
+[Tue Oct 14 22:12:35 2025] 127.0.0.1:59548 Accepted
+[Tue Oct 14 22:12:35 2025] 127.0.0.1:59564 Accepted
+[Tue Oct 14 22:12:35 2025] 127.0.0.1:59572 Accepted
+[Tue Oct 14 22:12:35 2025] 127.0.0.1:59574 Accepted
+[Tue Oct 14 22:12:35 2025] 127.0.0.1:59540 [200]: GET /assets/css/style.css
+[Tue Oct 14 22:12:35 2025] 127.0.0.1:59548 [200]: GET /assets/imgs/logo.jpg
+[Tue Oct 14 22:12:35 2025] 127.0.0.1:59564 [200]: GET /assets/imgs/produto1.jpg
+[Tue Oct 14 22:12:35 2025] 127.0.0.1:59572 [200]: GET /assets/imgs/produto2.jpg
+[Tue Oct 14 22:12:35 2025] 127.0.0.1:59574 [200]: GET /assets/imgs/produto3.jpg
+[Tue Oct 14 22:12:35 2025] 127.0.0.1:59540 Closing
+[Tue Oct 14 22:12:35 2025] 127.0.0.1:59548 Closing
+[Tue Oct 14 22:12:35 2025] 127.0.0.1:59564 Closing
+[Tue Oct 14 22:12:35 2025] 127.0.0.1:59572 Closing
+[Tue Oct 14 22:12:35 2025] 127.0.0.1:59574 Closing
+[Tue Oct 14 22:12:36 2025] 127.0.0.1:59578 Accepted
+[Tue Oct 14 22:12:36 2025] 127.0.0.1:59578 [200]: GET /assets/imgs/logo.jpg
+[Tue Oct 14 22:12:36 2025] 127.0.0.1:59578 Closing
+[Tue Oct 14 22:12:36 2025] 127.0.0.1:59582 Accepted
+[Tue Oct 14 22:12:36 2025] 127.0.0.1:59582 [200]: GET /assets/imgs/back.jfif
+[Tue Oct 14 22:12:36 2025] 127.0.0.1:59582 Closing
+[Tue Oct 14 22:13:11 2025] 127.0.0.1:35542 Accepted
+[Tue Oct 14 22:13:11 2025] 127.0.0.1:35542 [200]: GET /
+[Tue Oct 14 22:13:11 2025] 127.0.0.1:35542 Closing
+[Tue Oct 14 22:13:11 2025] 127.0.0.1:35556 Accepted
+[Tue Oct 14 22:13:11 2025] 127.0.0.1:35562 Accepted
+[Tue Oct 14 22:13:11 2025] 127.0.0.1:35578 Accepted
+[Tue Oct 14 22:13:11 2025] 127.0.0.1:35582 Accepted
+[Tue Oct 14 22:13:11 2025] 127.0.0.1:35596 Accepted
+[Tue Oct 14 22:13:11 2025] 127.0.0.1:35596 [200]: GET /assets/css/style.css
+[Tue Oct 14 22:13:11 2025] 127.0.0.1:35596 Closing
+[Tue Oct 14 22:13:12 2025] 127.0.0.1:35582 [200]: GET /assets/imgs/produto3.jpg
+[Tue Oct 14 22:13:12 2025] 127.0.0.1:35556 [200]: GET /assets/imgs/logo.jpg
+[Tue Oct 14 22:13:12 2025] 127.0.0.1:35562 [200]: GET /assets/imgs/produto1.jpg
+[Tue Oct 14 22:13:12 2025] 127.0.0.1:35578 [200]: GET /assets/imgs/produto2.jpg
+[Tue Oct 14 22:13:12 2025] 127.0.0.1:35582 Closing
+[Tue Oct 14 22:13:12 2025] 127.0.0.1:35556 Closing
+[Tue Oct 14 22:13:12 2025] 127.0.0.1:35562 Closing
+[Tue Oct 14 22:13:12 2025] 127.0.0.1:35578 Closing
+[Tue Oct 14 22:13:12 2025] 127.0.0.1:35610 Accepted
+[Tue Oct 14 22:13:12 2025] 127.0.0.1:35610 [404]: GET /favicon.ico - No such file or directory
+[Tue Oct 14 22:13:12 2025] 127.0.0.1:35610 Closing
+[Tue Oct 14 22:13:12 2025] 127.0.0.1:35616 Accepted
+[Tue Oct 14 22:13:12 2025] 127.0.0.1:35616 [200]: GET /assets/imgs/back.jfif
+[Tue Oct 14 22:13:12 2025] 127.0.0.1:35616 Closing
+[Tue Oct 14 22:13:47 2025] 127.0.0.1:50226 Accepted
+[Tue Oct 14 22:13:53 2025] 127.0.0.1:50226 Closed without sending a request; it was probably just an unused speculative preconnection
+[Tue Oct 14 22:13:53 2025] 127.0.0.1:50226 Closing
+[Tue Oct 14 22:16:42 2025] 127.0.0.1:42764 Accepted
+[Tue Oct 14 22:16:42 2025] 127.0.0.1:42764 [200]: GET /
+[Tue Oct 14 22:16:42 2025] 127.0.0.1:42764 Closing
+[Tue Oct 14 22:16:43 2025] 127.0.0.1:32924 Accepted
+[Tue Oct 14 22:16:43 2025] 127.0.0.1:32930 Accepted
+[Tue Oct 14 22:16:43 2025] 127.0.0.1:32938 Accepted
+[Tue Oct 14 22:16:43 2025] 127.0.0.1:32948 Accepted
+[Tue Oct 14 22:16:43 2025] 127.0.0.1:32954 Accepted
+[Tue Oct 14 22:16:43 2025] 127.0.0.1:32954 [200]: GET /assets/css/style.css
+[Tue Oct 14 22:16:43 2025] 127.0.0.1:32954 Closing
+[Tue Oct 14 22:16:43 2025] 127.0.0.1:32948 [200]: GET /assets/imgs/produto3.jpg
+[Tue Oct 14 22:16:43 2025] 127.0.0.1:32938 [200]: GET /assets/imgs/logo.jpg
+[Tue Oct 14 22:16:43 2025] 127.0.0.1:32948 Closing
+[Tue Oct 14 22:16:43 2025] 127.0.0.1:32938 Closing
+[Tue Oct 14 22:16:43 2025] 127.0.0.1:32930 [200]: GET /assets/imgs/produto1.jpg
+[Tue Oct 14 22:16:43 2025] 127.0.0.1:32930 Closing
+[Tue Oct 14 22:16:43 2025] 127.0.0.1:32924 [200]: GET /assets/imgs/produto2.jpg
+[Tue Oct 14 22:16:43 2025] 127.0.0.1:32924 Closing
+[Tue Oct 14 22:16:43 2025] 127.0.0.1:32956 Accepted
+[Tue Oct 14 22:16:43 2025] 127.0.0.1:32956 [200]: GET /assets/imgs/back.jfif
+[Tue Oct 14 22:16:43 2025] 127.0.0.1:32956 Closing

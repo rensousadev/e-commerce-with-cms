@@ -15,9 +15,12 @@
 <section id="home">
     <div class="container">
         <h5>NOVIDADES</h5>
-        <h1><span>Lorem ipsum</span> dolor sit amet.</h1>
-        <p>Ut enim ad minim veniam</p>
-        <button>Comprar</button>
+        <h1><span>E-commerce</span> com PHP e MySQL</h1>
+        <p>Sistema completo com banco de dados funcionando!</p>
+        <div class="mt-4">
+            <a href="test_database.php" class="btn btn-primary me-2">🔧 Testar Banco</a>
+            <a href="http://localhost:8080" target="_blank" class="btn btn-secondary">📊 phpMyAdmin</a>
+        </div>
     </div>
 </section>
 
