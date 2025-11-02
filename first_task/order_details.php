@@ -66,9 +66,10 @@ include('layouts/header.php');
             
             <div class="col-md-6">
                 <h5>Informações de Entrega</h5>
-                <p><strong>Telefone:</strong> <?php echo $order['user_phone']; ?></p>
-                <p><strong>Cidade:</strong> <?php echo $order['user_city']; ?></p>
-                <p><strong>Endereço:</strong> <?php echo $order['user_address']; ?></p>
+                <p><strong>Telefone:</strong> <?php echo isset($order['user_phone']) ? $order['user_phone'] : 'Não informado'; ?></p>
+                <p><strong>Cidade:</strong> <?php echo $order['shipping_city']; ?></p>
+                <p><strong>Estado:</strong> <?php echo $order['shipping_uf']; ?></p>
+                <p><strong>Endereço:</strong> <?php echo $order['shipping_address']; ?></p>
             </div>
         </div>
         

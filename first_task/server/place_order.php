@@ -29,9 +29,9 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $order_date = date('Y-m-d H:i:s');
     
     // Insert order into orders table
-    $stmt = $conn->prepare("INSERT INTO orders (order_cost, order_status, user_id, user_phone, user_city, user_address, order_date) 
+    $stmt = $conn->prepare("INSERT INTO orders (order_cost, order_status, user_id, user_phone, shipping_city, shipping_uf, shipping_address) 
                            VALUES (?, ?, ?, ?, ?, ?, ?)");
-    $stmt->bind_param('dsissss', $order_cost, $order_status, $user_id, $phone, $city, $address, $order_date);
+    $stmt->bind_param('dsissss', $order_cost, $order_status, $user_id, $phone, $city, $state, $address);
     
     if ($stmt->execute()) {
         // Get the order_id of the just inserted order
