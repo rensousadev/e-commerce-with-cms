@@ -10,7 +10,8 @@
  */
 
 // Try to connect to Docker MySQL first, then fallback to local MySQL
-$conn = mysqli_connect("localhost", "root", "root123", "project_db")
+// Use 127.0.0.1 instead of localhost to force TCP/IP connection
+$conn = mysqli_connect("127.0.0.1", "root", "root123", "project_db", 3306)
 or die("Couldn't connect to database: " . mysqli_connect_error());
 
 // Set charset to utf8mb4 for better unicode support
