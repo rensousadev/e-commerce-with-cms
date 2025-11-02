@@ -33,8 +33,13 @@
                     <li class="nav-item"><a class="nav-link" href="#">Blog</a></li>
                     <li class="nav-item"><a class="nav-link" href="#">Fale Conosco</a></li>
                     <li class="nav-item">
-                        <a class="nav-link" href="cart.php">
-                            <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                        <a class="nav-link position-relative" href="cart.php">
+                            <i class="fas fa-shopping-bag"></i>
+                            <?php if(isset($_SESSION['quantity']) && $_SESSION['quantity'] != 0) { ?>
+                                <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                                    <?php echo $_SESSION['quantity']; ?>
+                                </span>
+                            <?php } ?>
                         </a>
                     </li>
                     <li class="nav-item">

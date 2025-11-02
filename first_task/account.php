@@ -59,6 +59,12 @@ $orders_result = $stmt->get_result();
     </div>
     
     <div class="mx-auto container">
+        <?php if(isset($_GET['payment_message'])): ?>
+            <div class="alert alert-success alert-dismissible fade show" role="alert">
+                <?php echo htmlspecialchars($_GET['payment_message']); ?>
+                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+            </div>
+        <?php endif; ?>
         <div class="row">
             <!-- Account Info -->
             <div class="col-lg-6 col-md-12 col-sm-12">
@@ -131,17 +137,25 @@ $orders_result = $stmt->get_result();
                                     <tbody>
                                         <?php while($order = $orders_result->fetch_assoc()): ?>
                                             <tr>
-                                                <td><?php echo $order['order_id']; ?></td>
+                                                <td>
+                                                    <form method="POST" action="order_details.php" style="display: inline;">
+                                                        <input type="hidden" name="order_id" value="<?php echo $order['order_id']; ?>">
+                                                        <button type="submit" class="btn btn-link btn-sm p-0" style="text-decoration: none;">
+                                                            #<?php echo $order['order_id']; ?>
+                                                        </button>
+                                                    </form>
+                                                </td>
                                                 <td>R$ <?php echo number_format($order['order_cost'], 2, ',', '.'); ?></td>
                                                 <td>
                                                     <?php 
                                                     $status_labels = [
-                                                        'on_hold' => '<span class="badge bg-warning">Em análise</span>',
-                                                        'paid' => '<span class="badge bg-info">Pago</span>',
+                                                        'not paid' => '<span class="badge bg-warning">Não Pago</span>',
+                                                        'on_hold' => '<span class="badge bg-secondary">Em análise</span>',
+                                                        'paid' => '<span class="badge bg-success">Pago</span>',
                                                         'shipped' => '<span class="badge bg-primary">Enviado</span>',
-                                                        'delivered' => '<span class="badge bg-success">Entregue</span>'
+                                                        'delivered' => '<span class="badge bg-info">Entregue</span>'
                                                     ];
-                                                    echo $status_labels[$order['order_status']] ?? $order['order_status'];
+                                                    echo $status_labels[$order['order_status']] ?? '<span class="badge bg-secondary">' . $order['order_status'] . '</span>';
                                                     ?>
                                                 </td>
                                                 <td><?php echo date('d/m/Y', strtotime($order['order_date'])); ?></td>
